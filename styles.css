@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('t3b.png'); /* Add your background image */
+    background-size: cover;
+    /* Add any other global styles here */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.stopwatch {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px); /* Add blur effect */
+}
+
+.display {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.controls {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.laps {
+    text-align: center;
+}
+
+.laps h2 {
+    margin-bottom: 10px;
+}
+
+#lapList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#lapList li {
+    margin-bottom: 5px;
+}
