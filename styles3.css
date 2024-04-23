@@ -1,8 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('t3b.png'); /* Add your background image */
+    background-image: url('t3b.png'); /* background image */
     background-size: cover;
-    /* Add any other global styles here */
 }
 
 .container {
@@ -17,7 +16,7 @@ body {
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px); /* Add blur effect */
+    backdrop-filter: blur(5px); /* blur effect */
 }
 
 .display {
